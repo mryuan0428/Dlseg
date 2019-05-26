@@ -1,0 +1,2 @@
+model_checkpoint_path: "CTB7_weights"
+all_model_checkpoint_paths: "CTB7_weights"

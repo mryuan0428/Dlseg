@@ -1,0 +1,167 @@
+2018-07-23 16:14:08.716266: I tensorflow/core/platform/cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+2018-07-23 16:14:09.013813: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1030] Found device 0 with properties: 
+name: GeForce GTX 1080 Ti major: 6 minor: 1 memoryClockRate(GHz): 1.582
+pciBusID: 0000:82:00.0
+totalMemory: 10.91GiB freeMemory: 9.41GiB
+2018-07-23 16:14:09.013900: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: GeForce GTX 1080 Ti, pci bus id: 0000:82:00.0, compute capability: 6.1)
+2018-07-23 16:18:02.819740: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: GeForce GTX 1080 Ti, pci bus id: 0000:82:00.0, compute capability: 6.1)
+Encoding:  utf-8
+Reading data......
+Reading embeddings...
+Longest sentence by character is 431. 
+Longest sentence by word is 254. 
+Longest word is 67. 
+Number of buckets:  36
+Training set: 27663 instances; Dev set: 8713 instances.
+Initialization....
+RNN dimension is 200
+RNN number is 1
+Character embedding size is 64
+BiRNN BiLSTM10 uses LSTM
+Bucket 1, 0.604699 seconds
+BiRNN BiLSTM20 uses LSTM
+Bucket 2, 0.352690 seconds
+BiRNN BiLSTM30 uses LSTM
+Bucket 3, 0.367916 seconds
+BiRNN BiLSTM40 uses LSTM
+Bucket 4, 0.386168 seconds
+BiRNN BiLSTM50 uses LSTM
+Bucket 5, 0.646510 seconds
+BiRNN BiLSTM60 uses LSTM
+Bucket 6, 0.430004 seconds
+BiRNN BiLSTM70 uses LSTM
+Bucket 7, 0.447672 seconds
+BiRNN BiLSTM80 uses LSTM
+Bucket 8, 0.460391 seconds
+BiRNN BiLSTM90 uses LSTM
+Bucket 9, 0.775439 seconds
+BiRNN BiLSTM100 uses LSTM
+Bucket 10, 0.502207 seconds
+BiRNN BiLSTM110 uses LSTM
+Bucket 11, 0.519147 seconds
+BiRNN BiLSTM120 uses LSTM
+Bucket 12, 0.540952 seconds
+BiRNN BiLSTM130 uses LSTM
+Bucket 13, 0.879484 seconds
+BiRNN BiLSTM140 uses LSTM
+Bucket 14, 0.583822 seconds
+BiRNN BiLSTM150 uses LSTM
+Bucket 15, 0.602526 seconds
+BiRNN BiLSTM160 uses LSTM
+Bucket 16, 0.619907 seconds
+BiRNN BiLSTM170 uses LSTM
+Bucket 17, 0.638035 seconds
+BiRNN BiLSTM180 uses LSTM
+Bucket 18, 1.013838 seconds
+BiRNN BiLSTM190 uses LSTM
+Bucket 19, 0.676056 seconds
+BiRNN BiLSTM199 uses LSTM
+Bucket 20, 0.934580 seconds
+BiRNN BiLSTM210 uses LSTM
+Bucket 21, 0.737132 seconds
+BiRNN BiLSTM219 uses LSTM
+Bucket 22, 0.737922 seconds
+BiRNN BiLSTM228 uses LSTM
+Bucket 23, 1.398256 seconds
+BiRNN BiLSTM239 uses LSTM
+Bucket 24, 0.776362 seconds
+BiRNN BiLSTM250 uses LSTM
+Bucket 25, 0.798197 seconds
+BiRNN BiLSTM258 uses LSTM
+Bucket 26, 0.815367 seconds
+BiRNN BiLSTM269 uses LSTM
+Bucket 27, 0.840162 seconds
+BiRNN BiLSTM272 uses LSTM
+Bucket 28, 1.568094 seconds
+BiRNN BiLSTM285 uses LSTM
+Bucket 29, 0.874872 seconds
+BiRNN BiLSTM292 uses LSTM
+Bucket 30, 0.885481 seconds
+BiRNN BiLSTM316 uses LSTM
+Bucket 31, 0.928896 seconds
+BiRNN BiLSTM324 uses LSTM
+Bucket 32, 0.943616 seconds
+BiRNN BiLSTM331 uses LSTM
+Bucket 33, 0.953788 seconds
+BiRNN BiLSTM354 uses LSTM
+Bucket 34, 1.879843 seconds
+BiRNN BiLSTM376 uses LSTM
+Bucket 35, 1.044301 seconds
+BiRNN BiLSTM428 uses LSTM
+Bucket 36, 1.145037 seconds
+BiRNN BiLSTM431 uses LSTM
+Bucket 37, 1.153178 seconds
+Training preparation...
+Defining loss...
+Computing gradients...
+Bucket 1, 2.791999 seconds
+Bucket 2, 3.635742 seconds
+Bucket 3, 9.471132 seconds
+Bucket 4, 5.843151 seconds
+Bucket 5, 7.009129 seconds
+Bucket 6, 9.143888 seconds
+Bucket 7, 12.331917 seconds
+Bucket 8, 13.183012 seconds
+Bucket 9, 12.815315 seconds
+Bucket 10, 14.586404 seconds
+Bucket 11, 22.189959 seconds
+Bucket 12, 16.235740 seconds
+Bucket 13, 16.667344 seconds
+Bucket 14, 19.274886 seconds
+Bucket 15, 20.420103 seconds
+Bucket 16, 28.280363 seconds
+Bucket 17, 21.826357 seconds
+Bucket 18, 22.716814 seconds
+Bucket 19, 23.528627 seconds
+Bucket 20, 23.989426 seconds
+Bucket 21, 34.547890 seconds
+Bucket 22, 26.167642 seconds
+Bucket 23, 28.567897 seconds
+Bucket 24, 29.220057 seconds
+Bucket 25, 29.833052 seconds
+Bucket 26, 45.773391 seconds
+Bucket 27, 32.459643 seconds
+Bucket 28, 32.717449 seconds
+Bucket 29, 35.203484 seconds
+Bucket 30, 36.718514 seconds
+Bucket 31, 53.748875 seconds
+Bucket 32, 38.684984 seconds
+Bucket 33, 40.778741 seconds
+Bucket 34, 43.338024 seconds
+Bucket 35, 45.035644 seconds
+Bucket 36, 69.673886 seconds
+Bucket 37, 50.909717 seconds
+Done. Time consumed: 1879 seconds
+epoch: 1
+Segmentation F1-score: 0.859550
+POS Tagging F1-score: 0.760134
+
+Time consumed: 906 seconds
+epoch: 2
+Segmentation F1-score: 0.920771
+POS Tagging F1-score: 0.843022
+
+Time consumed: 105 seconds
+epoch: 3
+Segmentation F1-score: 0.941579
+POS Tagging F1-score: 0.878045
+
+Time consumed: 107 seconds
+epoch: 4
+Segmentation F1-score: 0.946196
+POS Tagging F1-score: 0.886227
+
+Time consumed: 106 seconds
+epoch: 5
+Segmentation F1-score: 0.947167
+POS Tagging F1-score: 0.891511
+
+Time consumed: 106 seconds
+epoch: 6
+Segmentation F1-score: 0.945251
+POS Tagging F1-score: 0.889110
+
+Time consumed: 117 seconds
+epoch: 7
+Segmentation F1-score: 0.948486
+P
